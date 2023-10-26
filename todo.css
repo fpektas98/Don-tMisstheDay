@@ -1,0 +1,43 @@
+body{
+    background-color: #cfcbbc
+}
+
+
+.Date {
+    color: #0b5ed7;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.list-group-item {
+    height: 45px; /* Liste öğelerinin yüksekliği */
+    position: relative; /* Pozisyon ayarı */
+}
+
+.btnDelete{
+    color: #999999;
+}
+.btnDelete:hover{
+    color: red;
+}
+.checkboxDesign{
+    outline: none;
+    box-shadow: none;
+}
+.btn:active{
+    border: none;
+}
+.list-group-item{
+    border: none;
+}
+ 
+#toast {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 20px;
+}
